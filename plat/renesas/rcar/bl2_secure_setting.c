@@ -23,7 +23,7 @@ static const struct {
 	/* Bit 0: ARM realtime core (Cortex-R7) master port             */
 	/*       0: Non-Secure                                          */
 	{
-	SEC_SRC, 0x0000001EU},
+	SEC_SRC, 0x0000001FU},
 	/** Security attribute setting for slave ports 0 to 15		*/
 	    /*      {SEC_SEL0,              0xFFFFFFFFU},                   */
 	    /*      {SEC_SEL1,              0xFFFFFFFFU},                   */

@@ -439,6 +439,9 @@ BL31_SOURCES	+=	${RCAR_GIC_SOURCES}				\
 			drivers/renesas/rcar/scif/scif.S        \
 			drivers/renesas/rcar/console/rcar_printf.c	\
 			drivers/renesas/rcar/delay/micro_delay.c	\
+			plat/renesas/rcar/rcar_scmi.c			\
+			plat/renesas/rcar/rcar_scmi_base.c		\
+			plat/renesas/rcar/rcar_scmi_devices.c		\
 			plat/renesas/rcar/rcar_scmi_power.c		\
 			plat/renesas/rcar/rcar_scmi_reset.c		\
 			plat/renesas/rcar/rcar_scmi_clocks.c		\

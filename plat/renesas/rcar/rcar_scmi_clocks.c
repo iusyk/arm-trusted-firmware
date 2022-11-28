@@ -758,6 +758,7 @@ static const struct scmi_clk_ops * __clk_get_ops(struct scmi_clk *sclk)
 	}
 
 	/* should not reach here */
+	return NULL;
 }
 
 static uint64_t __clk_get_rate_locked(uint32_t id)
